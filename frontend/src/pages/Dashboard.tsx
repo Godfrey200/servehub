@@ -148,7 +148,7 @@ export default function Dashboard() {
 
   function exportPdfReport() {
     const doc = new jsPDF();
-    const pageWidth = doc.internal.pageSize.getWidth();
+//    const pageWidth = doc.internal.pageSize.getWidth();
 
     // Title
     doc.setFontSize(18);
