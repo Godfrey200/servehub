@@ -1,0 +1,22 @@
+
+# dependencies
+node_modules/
+*/node_modules/
+
+# builds
+dist/
+frontend/dist/
+backend/dist/
+infra/cdk.out/
+infra/cdk.out/**
+
+# env and secrets
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+config.json
+
+# logs / OS
+*.log
+.DS_Store
